@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>lab1</title>
+		<style>
+			body{
+				margin: 0;
+    				min-height: 100vh;
+    				display: flex;
+    				flex-direction: column;
+				background-image: url('Whiterun.jpg');
+   				background-size: cover;
+    				background-repeat: no-repeat;
+    				background-position: center;
+			}
+			li{
+				color: black;
+				font-size: 20px;
+				margin: 20px;
+			}
+			.header{
+				width: 100%;
+				height: 10%;
+				min-width: 1095px;
+				min-height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				border: 2px solid #000;
+				margin-bottom: 10px;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: #f0f0f0;
+			}
+			.header h1 {
+				margin: 20px;
+			}			
+			.footer{
+				width: 100%;
+    				height: 10%;
+				min-width: 1095px;
+				min-height: 100px;
+				border: 2px solid #000;
+				margin-top: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: #f0f0f0;
+			}
+			.footer h1 {
+				margin-right: 20px;
+			}
+			.container{
+				text-align: center;
+				display: flex;
+				flex-direction: row;
+			}
+			.container img {
+    				display: block;
+    				width: 100%;
+    				height: auto;
+			}
+			.block4{
+				width: 100%;
+				height: 100%;
+				min-width: 525px;
+				border: 2px solid #000;
+				justify-content: center;
+  				align-items: center;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: flex;
+				gap: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Карта Скайріму</h1>
+		</div>
+		<div class="container">
+			<img src="skyrim_map.jpg" usemap="#skyrimMap" alt="Карта Скайріма"></img>
+			<map name="skyrimMap">
+				<area shape="rect" coords="516,388,574,448" href="index.html" alt="Вайтран">
+				<area shape="rect" coords="713,123,758,175" href="https://elderscrolls.fandom.com/uk/wiki/%D0%92%D1%96%D0%BD%D1%82%D0%B5%D1%80%D1%85%D0%BE%D0%BB%D0%B4_(Skyrim)" alt="Вінтерхолд">
+				<area shape="rect" coords="764,264,819,316" href="https://elderscrolls.fandom.com/uk/wiki/%D0%92%D1%96%D0%BD%D0%B4%D1%85%D0%B5%D0%BB%D1%8C%D0%BC_(Skyrim)" alt="Віндхельм">
+				<area shape="rect" coords="498,153,550,197" href="https://elderscrolls.fandom.com/ru/wiki/%D0%94%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D1%80_(Skyrim)" alt="Данстар">
+				<area shape="rect" coords="313,253,362,305" href="https://elderscrolls.fandom.com/uk/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%B0%D0%BB_(Skyrim)" alt="Морфал">
+				<area shape="rect" coords="192,150,243,205" href="https://elderscrolls.fandom.com/uk/wiki/%D0%A1%D0%BE%D0%BB%D1%96%D1%82%27%D1%8E%D0%B4_(Skyrim)" alt="Соліт'юд">
+				<area shape="rect" coords="74,432,137,496" href="https://elderscrolls.fandom.com/uk/wiki/%D0%9C%D0%B0%D1%80%D0%BA%D0%B0%D1%80%D1%82" alt="Маркарт">
+				<area shape="rect" coords="404,616,465,680" href="https://elderscrolls.fandom.com/uk/wiki/%D0%A4%D0%BE%D0%BB%D0%BA%D1%80%D1%96%D1%82_(Skyrim)" alt="Фолкріт">
+				<area shape="rect" coords="934,606,1014,683" href="https://elderscrolls.fandom.com/uk/wiki/%D0%A0%D1%96%D1%84%D1%82%D0%B5%D0%BD_(Skyrim)" alt="Ріфтен">
+			</map>
+			<div class="block4">
+					<ul>
+						<li><a href="quests.html">Квести</a></li>
+						<li><a href="index.html">Вайтран - головна</a></li>
+					</ul>
+					<ul>
+						<li><a href="links.html">Джерела</a></li>
+						<li><a href="gallery.html">Галерея</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<h1>Довакін - тан Вайтрана</h1>
+		</div>
+	</body>
+</html>
